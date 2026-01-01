@@ -19,7 +19,7 @@ const Contact = () => {
     message: ''
   })
 
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(True)
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -41,6 +41,14 @@ const Contact = () => {
   }
 
   const contactInfo = [
+    {
+      icon: Mail,
+      title: 'Email Us',
+      value: 'hello@sudolol.com',
+      description: 'Send us an email anytime',
+      color: 'from-blue-500 to-cyan-500'
+    },
+    const contactInfo = [
     {
       icon: Mail,
       title: 'Email Us',
