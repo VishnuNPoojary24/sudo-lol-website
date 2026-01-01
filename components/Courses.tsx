@@ -24,7 +24,7 @@ const Courses = () => {
       duration: '40+ hours',
       students: '8.5K+',
       rating: 4.9,
-      level: 'Beginner to Advanced',
+      level: 'Beginner to Expert',
       features: [
         '40+ hours of HD video content',
         'Real-world projects & assignments',
